@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Seni seviyor muyum?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="intro-screen" class="screen active">
+        <div class="intro-images">
+            <img src="assets/delik.png" alt="Delik" class="intro-img layer-back">
+            <img src="assets/kol.png" alt="Kol" class="intro-img layer-mid">
+            <img src="assets/delik2.png" alt="Delik 2" class="intro-img layer-front">
+            <img src="assets/arkaplan.png" alt="Arkaplan" class="intro-img layer-top">
+        </div>
+        <button id="start-btn">💗💗💗 tıkla 💗💗💗</button>
+    </div>
+
+    <div id="game-screen" class="screen">
+        <h2 class="game-title">Seni Seviyor Muyum?</h2>
+        <div class="game-container">
+            <img src="assets/kol aşağıya.png" id="center-arm" class="center-arm-img" alt="orta resim">
+            <div class="options-circle" id="options-circle">
+                <div class="option evet" id="evet-sag" style="--i: 0;">evet</div>
+                <div class="option hayir" style="--i: 1;">hayır</div>
+                <div class="option evet" id="evet-asagi" style="--i: 2;">evet</div>
+                <div class="option hayir" style="--i: 3;">hayır</div>
+                <div class="option evet" id="evet-sol" style="--i: 4;">evet</div>
+                <div class="option hayir" style="--i: 5;">hayır</div>
+                <div class="option evet" id="evet-yukari" style="--i: 6;">evet</div>
+                <div class="option hayir" style="--i: 7;">hayır</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
