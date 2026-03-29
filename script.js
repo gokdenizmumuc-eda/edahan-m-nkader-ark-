@@ -4,10 +4,10 @@ const startBtn = document.getElementById('start-btn');
 const centerArm = document.getElementById('center-arm');
 
 const images = [
-    'assets/kol aşağıya.png',
+    'assets/kol asagıya.png',
     'assets/kol sol.png',
     'assets/kol yukarı.png',
-    'assets/kol sağ.png'
+    'assets/kol sag.png'
 ];
 
 let currentImageIndex = 0;
